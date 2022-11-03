@@ -31,8 +31,8 @@ body {
 
 .medtext {
     text-align: center;
-    color: black;
-    font-size: 45px;
+    color: rgb(82, 82, 82);
+    font-size: 40px;
     width: 60%;
     padding: 30px 20% 60px 20%;
 }
@@ -49,20 +49,11 @@ body {
     font-size: 30px;
     border-radius: 20px;
     margin-left: 45%;
-
 }
 
 .donatebtn:hover {
     background-color: black;
     cursor: pointer;
-}
-
-.sec h1 {
-    text-align: center;
-    color: black;
-    font-size: 80px;
-    padding: 120px 0 30px 0;
-    font-weight: bolder;
 }
 
 .tkcards {
@@ -98,4 +89,86 @@ body {
     font-size: 30px;
     color: rgb(185, 185, 185);
     text-align: center;
+}
+
+.heading {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    padding: 120px 0 30px 0;
+    font-weight: bolder;
+}
+
+.donatecards {
+    display: flex;
+    justify-content: center;
+}
+
+.dcard1 {
+    margin: 20px;
+    height: 48vh;
+    width: 25%;
+    background-color: rgb(135, 206, 235);
+    border-radius: 20px;
+}
+
+.dcard2 {
+    margin: 20px;
+    height: 48vh;
+    width: 25%;
+    background-color: rgb(165, 206, 235);
+    border-radius: 20px;
+}
+
+.dcard3 {
+    margin: 20px;
+    height: 48vh;
+    width: 25%;
+    background-color: rgb(195, 206, 235);
+    border-radius: 20px;
+}
+
+.cardh1 {
+    font-size: 40px;
+    margin: 0 0 30px 30px;
+}
+
+.donatecards img {
+    height: 100px;
+    width: 100px;
+    margin: 90px 0 30px 30px;
+}
+
+.donatecards p {
+    font-size: 25px;
+    margin: 0 0 30px 30px;
+    text-align: left;
+}
+
+.contribtn {
+    height: 100px;
+    width: 350px;
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.hw1 {
+    margin-left: 200px;
+}
+
+.fou h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.hw1 p {
+    font-size: 25px;
+    margin: 20px 140px 20px 0;
 }
